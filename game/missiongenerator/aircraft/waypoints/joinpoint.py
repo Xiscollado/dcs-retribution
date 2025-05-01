@@ -9,7 +9,6 @@ from dcs.task import (
     OptFormation,
     Targets,
     SetUnlimitedFuelCommand,
-    OptReactOnThreat,
 )
 
 from game.ato import FlightType
@@ -66,9 +65,7 @@ class JoinPointBuilder(PydcsWaypointBuilder):
             ai_jammer = settings.plugin_option("ewrj.ai_jammer_enabled")
             if settings.plugins.get("ewrj") and ai_jammer:
                 self.offensive_jamming(waypoint, "start")
-                if self.defensive_jamming(waypoint, "start"):
-                    reaction = OptReactOnThreat(OptReactOnThreat.Values.PassiveDefense)
-                    waypoint.tasks.append(reaction)
+                self.defensive_jamming(waypoint, "start")
 
             if self.flight.flight_type == FlightType.SEAD_ESCORT:
                 self.handle_sead_escort(doctrine, waypoint)
