@@ -15,11 +15,8 @@ recommended_enemy_money: 500
 recommended_player_income_multiplier: 0.5
 recommended_enemy_income_multiplier: 0.5
 settings:
-  # Set mission duration to 45 minutes
-  desired_player_mission_duration: 45
   #  Set max frontline width to 30 km
   max_frontline_width: 30
-  squadron_start_full: true
 squadrons:
   Blue CV:
     # Tomcat F-14B - Swordsmen
