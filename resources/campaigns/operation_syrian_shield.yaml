@@ -6,7 +6,6 @@ description: <p>Isis forces are in a rush to retake Syrian territory along with 
 recommended_player_faction:
   country: Combined Joint Task Forces Blue
   name: Israel-USN 2005
-  authors: Fuzzle
   description:
     <p>A joint US Navy/Israeli modern faction for use with the Operation Allied
     Sword scenario.</p>
@@ -96,7 +95,6 @@ recommended_player_faction:
 recommended_enemy_faction:
   country: Combined Joint Task Forces Red
   name: Syria-Lebanon 2005 (Allied Sword)
-  authors: Fuzzle
   description:
     <p>Syria-Lebanon alliance in a modern setting with several imported Russian
     assets. Designed for use with the Allied Sword scenario.</p>
