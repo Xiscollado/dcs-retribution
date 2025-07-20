@@ -2,7 +2,10 @@
 name: Syria - Operation Syrian Shield
 theater: Syria
 authors: Xisco
-description: <p>Isis forces are in a rush to retake Syrian territory along with oil fields. The US is trying to stop them. Caught by surprise, the US is trying to regroup and defend the country.</p>
+description:
+  <p>Isis forces are in a rush to retake Syrian territory along with oil fields. The US is trying to stop them. Caught by surprise, the US is trying to regroup and defend the country.</p>
+  <p>This is an small scenario. Blue players start with 500M but low on resources. Can not afford to lose much aircrafts. In the other side, the enemy has a lot of resources and can afford to lose some aircraft.</p>
+  <p>Front line is very close to the allied base. If the enemy takes the base, the game is over.</p>
 recommended_player_faction: Bluefor Modern
 recommended_enemy_faction: Syria 2012'ish
 recommended_start_date: 2024-06-01
@@ -10,7 +13,7 @@ miz: operation_syrian_shield.miz
 performance: 2
 version: 10.7
 advanced_iads: true
-recommended_player_money: 50
+recommended_player_money: 500
 recommended_enemy_money: 500
 recommended_player_income_multiplier: 0.5
 recommended_enemy_income_multiplier: 0.5
